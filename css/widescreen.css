@@ -1,0 +1,9 @@
+.features_item{
+    display: flex;
+    text-align: left;
+}
+
+.features_icon{
+    align-self: center;
+    margin-bottom: 0;
+}

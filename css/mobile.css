@@ -1,0 +1,50 @@
+.features_items{
+    display: block;
+    margin: 0;
+}
+
+.features_item{
+    display: flex;
+    text-align: left;
+}
+
+.features_icon{
+    align-self: center;
+    margin-bottom: 0;
+}
+
+@media(max-width: 500px) {
+    #navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar_logo{
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .showcase-content{
+        top: 90px;
+    }
+
+    #benefits{
+        display: block;
+    }
+
+    .benefits_img{
+        display: none;
+    }
+
+    .clients_img{
+        width: 80%;
+    }
+
+    #contact{
+        flex-direction: column;
+    }
+
+    #map{
+        height: 200px;
+    }
+}
